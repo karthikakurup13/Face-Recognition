@@ -26,15 +26,15 @@ OR
 git clone <http_url> 
 This is done if we have an existing git repository.
 
-# # change into the `repo` directory/to move to ur repository
+# 2.change into the `repo` directory/to move to ur repository
 cd repo
 
-# 2.Git user configuration (First Step)
+# 3.Git user configuration (First Step)
 git --version (to check git version)
 git config --global user.name "your name here"
 git config --global user.email "your email here"
 
-# 3.To add a file to central Repository:
+# 4.To add a file to central Repository:
 git add <filename>
 AND
 git commit
@@ -46,29 +46,29 @@ This command adds and commits the files in single step.
      staged earlier need not to be git add once more
 -a options does that automatically.
 
-# 4.
+# 5.
 git push origin master -> pushes your files to 
                          github master branch
                          helps keep everything up-to-date.
 
-# 5.
+# 6.
 git status -> command to see which files git knows exist.
 
-# 6.To make a new branch while staying on master branch
+# 7.To make a new branch while staying on master branch
  git branch -d <filename>
  Helps create new branch.
  AND
  git checkout <branchname>
  This command will automatically help you move to any other branch while staying on a branch.
 
-# 7.To confirm branch formation
+# 8.To confirm branch formation
  git branch 
  command helps to confirm that your branch was created.
 
-# 8.To push the current branch and set the remote as upstream/To push changes to github
+# 9.To push the current branch and set the remote as upstream/To push changes to github
  git push --set-upstream origin <filename> 
 
-# 9.# update all remote tracking branches, and the currently checked out branch
+# 10.# update all remote tracking branches, and the currently checked out branch
 git pull
 
 
