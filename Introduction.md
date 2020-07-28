@@ -1,5 +1,5 @@
 ### What is Git?
-   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git was created by  ‎Linus Torvalds, the person who designed linux operating system.
+   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git was created by  ‎Linus Torvalds, the person who designed the Linux operating system.
 ## Version Control System
    A version Control system is a system which maintains different versions of your project when we work in a team or as an individual. As the project progresses, new features get added to it. It maintains all your different versions of your project for you and you can rollback to any version you want without causing any trouble for maintaining different versions by giving serial names of your choice.
 # Distributed Version Control System:
@@ -11,7 +11,7 @@ project before pushing them to central repository on Github. This is what is pro
 2.Central Repository : This is the main project on the central server, a copy of which
 is with every team member as local repository.
 
-### What is a GitHub?
+### What is GitHub?
 a. Github is designed as a Git repository hosting services.
 b. It is completely cloud based. 
 c. You can share your code with others, giving them the power to edit.
@@ -26,7 +26,7 @@ OR
 git clone <http_url> 
 This is done if we have an existing git repository.
 
-# # change into the `repo` directory/to move to ur repository
+# # change into the 'repo' directory/to move to ur repository
 cd repo
 
 # 2.Git user configuration (First Step)
@@ -36,7 +36,7 @@ git config --global user.email "your email here"
 
 # 3.To add a file to central Repository:
 git add <filename>
-AND
+and
 git commit
 Does adding and committing in two steps.
 OR
