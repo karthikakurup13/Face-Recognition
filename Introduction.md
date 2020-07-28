@@ -19,12 +19,10 @@ In short, GitHub is an online service to developers who use Git where they can c
 
 # Commands:
 ### 1.Initialize directory :
-git init 
-initializes your directory to work with git and
-makes a local repository. .git folder is made
-OR
-git clone <http_url> 
-This is done if we have an existing git repository.
+git init -> initializes your directory to work with git and
+makes a local repository. .git folder is made 
+# If link Present
+git clone <http_url> -> This is done if we have an existing git repository.
 
 ### 2.change into the `repo` directory/to move to ur repository
 cd repo
@@ -35,16 +33,13 @@ git config --global user.name "your name here"
 git config --global user.email "your email here"
 
 ### 4.To add a file to central Repository:
-git add <filename>
-and
-git commit
-Does adding and committing in two steps.
-OR
-git commit -a -m "message for commit"
-This command adds and commits the files in single step.
--a : commit all files and for files which have been 
+git add <filename> and git commit -> Does adding and committing in two steps.
+
+# Another way
+git commit -a -m "message for commit" -> This command adds and commits the files in single step.
+(-a : commit all files and for files which have been 
      staged earlier need not to be git add once more
--a options does that automatically.
+-a options does that automatically.)
 
 ### 5.PUSH
 git push origin master -> pushes your files to 
@@ -55,15 +50,10 @@ git push origin master -> pushes your files to
 git status -> command to see which files git knows exist.
 
 ### 7.To make a new branch while staying on master branch
- git branch -d <filename>
- Helps create new branch.
- AND
- git checkout <branchname>
- This command will automatically help you move to any other branch while staying on a branch.
+ git branch -d <filename> -> Helps create new branch. AND git checkout <branchname> -> This command will automatically help you move to any other branch while staying on a branch.
 
 ### 8.To confirm branch formation
- git branch 
- command helps to confirm that your branch was created.
+ git branch -> command helps to confirm that your branch was created.
 
 ### 9.To push the current branch and set the remote as upstream/To push changes to github
  git push --set-upstream origin <filename> 
