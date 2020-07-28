@@ -37,7 +37,6 @@ git config --global user.email "your email here"
 # 3.To add a file to central Repository:
 git add <filename>
 and
-
 git commit
 Does adding and committing in two steps.
 OR
