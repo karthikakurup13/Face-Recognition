@@ -41,17 +41,16 @@ All OpenCV array structure are converted to and from numpy arrays.
     (a).Capture videos using webcam
         import cv2
         video=cv2.VideoCapture(0)
-        video.release()
-        # 0 is used to specify that you will use webcam to capture videos.
+        video.release() (0 is used to specify that you will use webcam to capture videos.)
     (b).To add a time delay,we need time module
         import cv2,time
         video=cv2.VideoCapture(0)
-        time.sleep(3) #This will stop the script for 3s
+        time.sleep(3) (This will stop the script for 3s)
         video.release()
     (c).To add a window to capture videos
         import cv2,time
         video=cv2.VideoCapture(0)
-        check,frame=video.read   (# check returns bool type and frame is numpy represents first image captured)
+        check,frame=video.read   ( check returns bool type and frame is numpy represents first image captured)
         print(check)
         print(frame)
         time.sleep(3)
