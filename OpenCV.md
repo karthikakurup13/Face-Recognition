@@ -55,7 +55,7 @@ All OpenCV array structure are converted to and from numpy arrays.
         print(check)
         print(frame)
         time.sleep(3)
-        video.release)_
+        video.release()
 
 ## 6. Capture Video
     1.Create frame object,which will read the image of video capture object.
