@@ -5,10 +5,10 @@ It can process images,object faces and even handwriting.OpenCV can run on the fo
 The library has more than 2500 optimized algorithms, which includes a comprehensive set of both classic and state-of-the-art computer vision and machine learning algorithms. These algorithms can be used to detect and recognize faces, identify objects, classify human actions in videos, track camera movements, track moving objects, extract 3D models of objects, produce 3D point clouds from stereo cameras, stitch images together to produce a high resolution image of an entire scene, find similar images from an image database, remove red eyes from images taken using flash, follow eye movements, recognize scenery and establish markers to overlay it with augmented reality, etc
 All OpenCV array structure are converted to and from numpy arrays.
 ### Python stores the image as numpy/matrix of an array.
-[(i).If colored image-3D matrix 
- (ii).If B/W  image-2D matrix  ]
+(i).If colored image-3D matrix 
+ (ii).If B/W  image-2D matrix  
 
-#Topics:
+# Topics:
 ## 1. Basic operations of OpenCV
     (a).import OpenCV model-->import cv2
     (b).Read the image using cv2.imread("".jpg,1)
@@ -30,7 +30,7 @@ All OpenCV array structure are converted to and from numpy arrays.
     (b).If we specify a time say cv2.waitKey(2000) it will wait till 2000 ms and then destroy all windows.
     cv2.destroyAllWindows()
     
-    # Code 
+  # Code 
     import cv2
     img=cv2.imread("",1) 
     cv2.imshow("",img)
@@ -61,7 +61,7 @@ All OpenCV array structure are converted to and from numpy arrays.
     1.Create frame object,which will read the image of video capture object.
     2.Show each frame of the video captured.
     
-    #Code
+   # Code
     import cv2,time
     video=cv2.VideoCapture(0)
     check,frame=video.read()
