@@ -24,7 +24,7 @@
 
 ### To find size use img.shape indicating as (c,r,d) where c denotes number of columns, r denotes number of rows and d denotes the dimension. Dimension 3 mean, containing 3 matrix, by using RGB concept(where first matrix denote all pixel containing red value similarly, second green and third blue).
 
-#### for grayscle the dimension will be equal to 1.
+#### for grayscale the dimension will be equal to 1.
 
 #### value of grayscale varies from 0 to 255 where 0 stands for absolute black and 255 for absolute white. The value in between indicate gray values. 
 
@@ -40,6 +40,7 @@
 ####   ret,frame = video.read()
 ####   print(ret)
 ####   print(frame)
+####   EXP:
 ####   video=cv2.VideoCapture(0) ----> using this command we can load a video.
 
 ####   Video is stored as object first to be presented later ---> print(video).Then using ---> ret,frame = video.read() we can read the video and then print(ret) along with print(frame) help display where ret is a variable that contain true or false, help detect whether the ead was successfull or not.
